@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+aside img{
+    width: calc(10%-40px);
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section > h3{
+    width: 100%;
+}
+
+section > div{
+    display: flex;
+    width: 40%;
+    padding: 20px 20px 20px 0px;
+}
+
+div {
+    display: flex; 
+    flex-direction: column;
+}
+
+button{
+ background-color: green;
+ border-radius: 5px;
+ height: 2rem; 
+ width: 10rem;
+    
+}
+
+span{
+    color: green
+}
+
