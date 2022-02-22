@@ -12,19 +12,27 @@ aside img{
 main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+section, form{
     padding-left: 20px;
+    padding-bottom: 20px;;
 }
 
 .form{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    background-color: white;
+    border-radius: 5px;
 }
 
-section > h3{
+form > h3{
     width: 100%;
 }
 
-section > div{
+form > div{
     display: flex;
     width: 40%;
     padding: 20px 20px 20px 0px;
@@ -33,6 +41,10 @@ section > div{
 div {
     display: flex; 
     flex-direction: column;
+}
+
+section:last-child{
+    padding-top: 20px;
 }
 
 button{
@@ -46,4 +58,12 @@ button{
 span{
     color: green
 }
-
+input{
+    border:none;
+    border-bottom: 1px solid lightgray;
+}
+/* Active field*/
+input:focus{
+    border:none;
+   background-color: lightgreen;
+}

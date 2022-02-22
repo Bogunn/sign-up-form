@@ -19,33 +19,33 @@
             Sign up <em>now</em> to get started. <br>
             You <em>know</em> you want to. <br>
         </section>
-        <section class="form">
+        <form class="form" method="post">
             <h3>Let's do this</h3>
             <div>
-                <label for="f-name">First Name</label>
-                <input type="text">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name">
             </div>
             <div>
-                <label for="l-name">Last Name</label>
-                <input type="text">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="email">
             </div>
             <div>
                 <label for="email">Email</label>
-                <input type="text">
+                <input type="email" id="email" name="email" pattern="/@/g" title="Please enter a valid email address">
             </div>
             <div>
                 <label for="phone-number">Phone Number</label>
-                <input type="text"> 
+                <input type="number" id="phoneNumber"> 
             </div>
             <div>
                 <label for="password">Password</label>
-                <input type="text">
+                <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
             </div>
             <div>
                 <label for="password">Confirm Password</label>
-                <input type="text"> 
+                <input type="password" id="password" name="password" minlength="8" maxlength="20" required> 
             </div>            
-        </section>
+        </form>
         <section>
             <label for="button"></label>
             <button>Create Account</button>
